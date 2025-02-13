@@ -7,7 +7,7 @@ It does basically run three commands.
 
 > settings put global development_settings_enabled 2
 
-And some sleep tricks to actually get it working.
+Also an infinite loop and one minute sleep interval to actually get it working.
 
 ## How does it work?
 Most detection checks if those values are not 1 to detect debugging.
