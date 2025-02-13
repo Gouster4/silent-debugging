@@ -7,6 +7,8 @@ It does basically run three commands.
 
 > settings put global development_settings_enabled 2
 
+And some sleep tricks to actually get it working.
+
 ## How does it work?
 Most detection checks if those values are not 1 to detect debugging.
 I assume that those values must not be present at all when debugging is disabled.
