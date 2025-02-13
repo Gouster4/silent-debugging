@@ -1,17 +1,9 @@
 #!/system/bin/sh
 i=0
-while (($i > 60)) && [ $(getprop sys.boot_completed) != true ]; do
-    sleep 10
-    ((retry++))
+while true
+do
+settings put global adb_enabled 2
+settings put global adb_wifi_enabled 2
+settings put global development_settings_enabled 2
+sleep 60
 done
-/system/bin/sh $MODDIR/action.sh
-sleep 10
-/system/bin/sh $MODDIR/action.sh
-sleep 10
-/system/bin/sh $MODDIR/action.sh
-sleep 10
-/system/bin/sh $MODDIR/action.sh
-sleep 10
-/system/bin/sh $MODDIR/action.sh
-sleep 10
-/system/bin/sh $MODDIR/action.sh
