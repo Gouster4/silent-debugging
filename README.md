@@ -1,7 +1,10 @@
 ## What does this module do?
 It does basically run three commands.
+
 > settings put global adb_enabled 2
+
 > settings put global adb_wifi_enabled 2
+
 > settings put global development_settings_enabled 2
 
 ## How does it work?
