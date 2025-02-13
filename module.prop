@@ -1,0 +1,6 @@
+id=silent-debugging
+name=Silent Debugging
+version=v1
+versionCode=1
+author=gouster4
+description=Enable USB & Wireless Debugging in way it should bypass most detections
