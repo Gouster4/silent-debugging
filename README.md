@@ -19,3 +19,6 @@ But for android, even if its set to 2, its enabled.
 ## What it actually does?
 It does enable USB and Wireless Debugging, but most apps wouldnt detect it being enabled.
 
+## Security disclaimer
+Since this module is enabled, Developer Settings, USB and Wireless debugging are active. This can create potential security risk. USB debugging usually requires to accepting each connected PC manually, and Wireless debugging does also usually need pairing with PC. But not all devies does have  those security features, specially  outdated ones can possible miss those features. Also with some potential vournealibility in ADB imolementation that can potentially bypass those verifications it can be still security risk.
+I currently dont know about any such a vourneability, but im not sure that its impossible. 
