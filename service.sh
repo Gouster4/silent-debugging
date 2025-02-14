@@ -1,5 +1,4 @@
 #!/system/bin/sh
-i=0
 while true
 do
 settings put global adb_enabled 2
